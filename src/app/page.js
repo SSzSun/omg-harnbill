@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col rounded-b-lg place-items-center w-full h-screen bg-[#112D4E]">
-      <div className="flex justify-between w-3/5 px-6 py-4 bg-white">
+    <div className="flex flex-col place-items-center">
+      <div className="flex justify-between w-full max-w-xl px-6 py-4 bg-white">
         <div className="content-center">
           <a className="btn btn-link p-0">
             <Image src="/bill.png" width={25} height={0} alt="Harnbill logo" />
@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </div>
       {/* <!-- ส่วนเนื้อหา --> */}
-      <div className="flex flex-col place-items-center h-screen w-3/5 px-6 bg-white rounded-b-lg">
+      <div className="flex flex-col place-items-center h-screen w-full max-w-xl px-6 bg-white rounded-b-lg">
         {/* <!-- ส่วนเนื้อหาย่อย --> */}
         <div className="w-full p-4 -mx-4 bg-detail rounded-xl">
           <h1 className="text-4xl font-bold my-5">หารไม่เท่ากันได้ง่ายๆ 🤑</h1>
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </div>
       {/* <!-- ส่วนท้าย --> */}
-      <div className="flex text-xs text-gray-500 justify-center w-3/5 px-6 py-4">
+      <div className="flex text-xs text-gray-500 justify-center w-full max-w-xl px-6 py-4">
         <p>
           © 2024 Harnbill,{" "}
           <a
