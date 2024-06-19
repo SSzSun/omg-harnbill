@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <div className="content-center">
         <a className="btn btn-link p-0">
-          <Image src="/bill.png" width={25} height={0} alt="Harnbill logo" />
+          <Image src="/bill.png" width={25} height={25} alt="Harnbill logo" />
           <span className="text-lg">Harnbill</span>
         </a>
       </div>
@@ -30,7 +30,7 @@ export default function Header() {
             </details>
           </li>
           <li className="w-xl border rounded-lg place-content-center">
-            <a class="fa-solid fa-share-from-square"></a>
+            <a className="fa-solid fa-share-from-square"></a>
           </li>
         </ul>
       </div>
